@@ -1,9 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(siny.png);
+    background-image: url(b.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
   
   .nav {
@@ -39,69 +40,38 @@ body {
     text-decoration: underline;
 
   }
+
+
 .container{
-    margin-left: 50px;
+    margin-left: 0;
     display: flex;
 }
-
-img{
-    width: 400px;
-    height: 350px;
-    border-radius: 100%;
-    background-image: url(../images/p.jpg);
+.value h2{
+    text-decoration: underline;
+}
+img {
+    width: 700px;
+    height: 500px;
     background-size: contain;
     background-position: center;
-    border: solid white 3px;
-    margin-right: 30px;
-    margin-top: 20px;
-    
+    border: solid white 3px;    
 }
 .bar{
    
     column-count: 3;
-    column-width: 100px;
 }
-.navbar {
-    margin-left: 50px;
-    display: flex;
-   
+.count {
+    margin-left: 80px;
+    margin-top: 30px;
 }
-h2 {
-    color: #ff1900;
-}
-.navbar ul{
-    color: #ecf0f1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: grid;
-    width: 30% 70%;
-    margin-bottom: 40px;
-    margin-right: 50px;
-
+.hili h5{
+    color: #2c3e50;
+    margin-left: 30px;
+    text-decoration: underline;
+    text-align: center;
 }
 .about {
-    margin-top: 40px;
-    color: #ffffff;
+    color: #34495e;
+    text-decoration: underline;
     margin-left: 30px;
-
 }
-h4 {
-    text-decoration: underline;   
-}
-.h1 {
-    
-    column-count: 2;
-    column-width: 80px;
-}
-h1 {
-    margin-left: 50px;
-    color: #f6f8f8;
-    
-}
-h3 {
-    margin-left: 50px;
-    color: #fafafa;
-}
-
-
-
-
