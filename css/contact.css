@@ -1,10 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(b.png);
+    background-image: url(ex.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background: url(https://brianyeardley.com/storage/twitter-logo-small-fade-1920.png);
 }
   
   .nav {
@@ -41,37 +41,40 @@ body {
 
   }
 
-
-.container{
-    margin-left: 0;
-    display: flex;
-}
-.value h2{
-    text-decoration: underline;
-}
-img {
-    width: 700px;
-    height: 500px;
-    background-size: contain;
-    background-position: center;
-    border: solid white 3px;    
-}
-.bar{
-   
-    column-count: 3;
-}
-.count {
-    margin-left: 80px;
-    margin-top: 30px;
-}
-.hili h5{
-    color: #2c3e50;
-    margin-left: 30px;
-    text-decoration: underline;
+   .contact {
+    background: #bdc3c7;
+    padding: 10px;
     text-align: center;
-}
-.about {
-    color: #34495e;
     text-decoration: underline;
-    margin-left: 30px;
+  }
+
+
+.map {
+  display: flex;
+  width: 100%;
 }
+.map .fram {
+    
+    width: 45%;
+    margin-right: 2px;
+    margin-top: 49px;
+    
+}
+
+input{
+	width: 95.3%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.action {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#s {
+  width: 95.3%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+

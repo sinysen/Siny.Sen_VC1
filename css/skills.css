@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(siny.png);
+    background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -39,67 +39,59 @@ body {
     text-decoration: underline;
 
   }
-.container{
-    margin-left: 50px;
-    display: flex;
-}
 
-img{
-    width: 400px;
-    height: 350px;
-    border-radius: 100%;
-    background-image: url(../images/p.jpg);
+  .skill {
+    column-count: 2;
+    color: black;
+    margin-left: 100px;
+  }
+  img {
+    padding: 600px;
     background-size: contain;
     background-position: center;
-    border: solid white 3px;
-    margin-right: 30px;
+    margin-right: 10px; 
+  }
+  .skill1 h2{
+    margin-top: 60px;
+    text-decoration: underline;
+    
+  }
+  .skill1 img{
+    padding: 30px;
+    margin-bottom: 100px;
+  }
+  .image {
+    padding: 0px;
     margin-top: 20px;
-    
-}
-.bar{
-   
-    column-count: 3;
-    column-width: 100px;
-}
-.navbar {
-    margin-left: 50px;
-    display: flex;
-   
-}
-h2 {
-    color: #ff1900;
-}
-.navbar ul{
-    color: #ecf0f1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: grid;
-    width: 30% 70%;
-    margin-bottom: 40px;
-    margin-right: 50px;
+    margin-bottom: 50px;
+  }
 
+  .fa{
+    margin-top: 30px;
 }
-.about {
-    margin-top: 40px;
-    color: #ffffff;
-    margin-left: 30px;
-
+.fa:hover {
+  opacity: 0.7;
 }
-h4 {
-    text-decoration: underline;   
-}
-.h1 {
-    
-    column-count: 2;
-    column-width: 80px;
-}
-h1 {
-    margin-left: 50px;
-    color: #f6f8f8;
-    
-}
-h3 {
-    margin-left: 50px;
-    color: #fafafa;
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 10px;
 }
 
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 10px;
+}
 
+.fa-skype {
+background: #00aff0;
+color: white;
+border-radius: 10px;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+border-radius: 10px;
+}
