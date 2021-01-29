@@ -4,7 +4,7 @@ body {
     background-image: url(ex.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background: url(https://brianyeardley.com/storage/twitter-logo-small-fade-1920.png);
+    background: #95a5a6;
 }
   
   .nav {
@@ -77,4 +77,65 @@ input{
 	margin-bottom: 10px;
 }
 
+
+.about {
+  margin-top: 40px;
+  color: #ffffff;
+  margin-left: 30px;
+
+}
+h4 {
+  text-decoration: underline;   
+}
+.h1 {
+  
+  column-count: 2;
+  column-width: 80px;
+}
+h1 {
+  margin-left: 50px;
+  color: #f6f8f8;
+  
+}
+
+
+.icon {
+  text-align: center;
+  margin-left: 690px;
+
+}
+.fa h5 {
+  color: white;
+}
+
+
+.fa{
+    margin-top: 30px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 10px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 10px;
+}
+
+.fa-skype {
+background: #00aff0;
+color: white;
+border-radius: 10px;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+border-radius: 10px;
+}
 
